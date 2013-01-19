@@ -1,0 +1,4 @@
+fuel/app/config/*/db.php
+fuel/app/config/db.php
+fuel/app/config/*/migrations.php
+fuel/app/config/migrations.php
