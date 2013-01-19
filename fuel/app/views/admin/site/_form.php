@@ -54,7 +54,7 @@
 
 			<div class="input">
 				<?php echo Form::hidden('is_camouflage_referer', 0, array('class' => 'span8', 'rows' => 8)); ?>
-				<?php echo Form::input('is_camouflage_referer', 1, array('type' => 'checkbox', 'checked' => $site->is_camouflage_referer ? 'checked' : false)); ?>
+				<?php echo Form::input('is_camouflage_referer', 1, array('type' => 'checkbox', 'checked' => isset($site) ? ($site->is_camouflage_referer ? 'checked' : false) : false )); ?>
 
 			</div>
 		</div>
